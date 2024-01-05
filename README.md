@@ -1,4 +1,4 @@
-# consultancy-website
+# website-amariconelli
 
 ## Project setup
 ```
