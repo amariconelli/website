@@ -1,4 +1,3 @@
-
 npm run build && ^
 cd .\dist && ^
 echo amariconelli.com > CNAME && ^
