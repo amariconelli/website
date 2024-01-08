@@ -45,13 +45,13 @@
         <div class="col-lg-6">
           <h4>Redes Sociais</h4>
           <div>
-            <a href="https://www.facebook.com/seu-facebook" target="_blank" style="margin-right: 25px;">
+            <a href="https://www.facebook.com/amariconellivisto" target="_blank" style="margin-right: 25px;">
               <i class="fab fa-facebook-square" style="font-size: 30px;"></i>
             </a>
-            <a href="https://www.instagram.com/seu-instagram" target="_blank" style="margin-right: 25px;">
+            <a href="https://www.instagram.com/amariconelli_/" target="_blank" style="margin-right: 25px;">
               <i class="fab fa-instagram instagram-icon" style="font-size: 30px;"></i>
             </a>
-            <a href="https://api.whatsapp.com/send?phone=seu-numero" target="_blank">
+            <a href="https://wa.me/message/L57OUXXHQ6VUB1" target="_blank">
               <i class="fab fa-whatsapp" style="font-size: 30px;color: #1CBD3C;"></i>
             </a>
           </div>
@@ -118,7 +118,7 @@ export default {
   methods: {
     sendEmail() {
       this.sendFormData.btnLoading = true;
-      emailjs.sendForm('service_99qub15', 'template_l3cj23p', this.$refs.form, 'xAy7NnpOGrrgTtrbx')
+      emailjs.sendForm('service_uvb2awe', 'template_l3cj23p', this.$refs.form, 'xAy7NnpOGrrgTtrbx')
         .then(() => {
           this.sendFormData.message = "<span style='color: green'>Mensagem enviada!</span>";
           setTimeout(() => {
